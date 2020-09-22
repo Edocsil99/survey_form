@@ -74,6 +74,7 @@
     cursor: pointer;
     display: block;
     color: black;
+    padding: 0.25rem;
   }
   footer {
   color:aqua;
