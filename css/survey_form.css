@@ -65,7 +65,7 @@
     }
   textarea{
     max-width: 100%;
-    max-height:25%;
+    max-height:100%;
     width: auto;
     height:auto;
     padding: 0.50rem;
