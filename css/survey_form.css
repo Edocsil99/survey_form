@@ -64,11 +64,9 @@
   font-size: 25px;
     }
   textarea{
-    max-width: 100%;
-    max-height:100%;
-    width: auto;
-    height:auto;
-    padding: 0.50rem;
+    width: 80%;
+    height:100%;
+    padding: 4.50rem;
     border: none;
   }
   .submit{
