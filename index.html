@@ -1,0 +1,152 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/Users/aytreousadri/Desktop/Coding Stuff/FreeCodeCamp/Responsive Web Design Certification Projects/survey_form/css/survey_form.css">
+  
+</head>
+
+
+ <h1 id='title' class='title'>Great Wall Chinese Restaurant</h1>
+
+<body>
+  
+  <p id='description' class='description'>To serve you better, we thank you for taking this survey</p>
+  
+  <form action=" /action_page.php" id="survey-form">
+    <div id="section">
+      <label id='name-label'>Name</label>
+      <input class="box" id='name' type="text" placeholder="Your Name..." required> </input>
+
+      <br/><br />
+
+      <label id='email-label'>Email</label>
+     <div class="input-email">
+      <input class="box" id='email' type="email" form="/actionsumbit email" placeholder="Your email..." required ></input>
+     </div>
+
+      <br />
+
+      <label id='number-label'>Age (optional)</label>
+
+     <div>
+      <input class="box" id='number' type="number" form="/actionsumbitage" placeholder="Your age..." min=10 max=100 width="100%"></input>
+     </div>
+
+
+
+
+      <br />
+
+
+     <p>What went well today?</p>
+    <div>
+     <select class="select" id="dropdown" value="comments" placeholder="Select an option...">
+ <option value="">Select your option...</option>  
+     <option value="Atmosphere">Atmosphere</option>
+     <option value="service">Service</option>
+     <option value="food-quality">Food-Quality</option>
+     <option value="wait-time">Wait-Time</option>
+     <option value="other">Other</option>
+     </select>
+    </div>
+
+      <br />
+
+ <p>Would you recommend Great Wall to a friend?</p>
+
+<div class="input-radio">
+ <label><input name='recommendation' type="radio" value="yes-definitely">Yes, definitely!</label>
+</div>
+
+<div class="input-radio">
+<label><input name='recommendation' type="radio" value="undecided">Undecided</label>
+</div>
+
+<div class="input-radio" value="no">
+<label><input name='recommendation' type="radio" value='no'>No</label>
+</div>
+
+      <br />
+
+
+
+<p>How was the food?</p>
+<div class="input-radio">
+<label><input name='food-satisfaction' type="radio" value="amazing">Amazing</label>
+</div>
+
+<div class="input-radio">
+<label><input name='food-satisfaction' type="radio" value="was-hoping-for-more">Was hoping for more</label>
+</div>
+
+<div class="input-radio">
+<label><input name='food-satisfaction' type="radio" value="not-great">Not great</label>
+</div>
+
+<br />
+
+
+
+<p>Which of the following was your favorite?</p>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="seafood-congee">Seafood Congee</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="combo-congee">Combo Congee</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="lotus-seed-bun">Lotus Seed Bun</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="gua-bao">Gua-Bao</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="xi-an-style-oven-fried-chicken-wings">Xi-an Oven Fried Chicken Wings</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="xiao-long-bai">Xiao-Long-Bao</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="scallion-pancakes">Scallion Pancakes</label>
+</div>
+
+<div class="input-radio">
+<label><input name='favorite-dish' type="checkbox" value="pork-and-cabbage-dumplings">Pork and Cabbage Dumplings</label>
+</div>
+
+
+<br />
+
+
+<div>
+<p>Any comments or suggestions?</p>
+<textarea></textarea>
+</div>
+
+<br />
+
+<div>
+<button id='submit' class='submit' color='black'><strong>Submit</strong><button>
+</div>
+  
+</form>
+</body>
+
+<footer>Created and Coded By: Aytreou Sadri</footer>
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
