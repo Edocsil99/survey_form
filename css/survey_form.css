@@ -41,12 +41,28 @@
       margin-bottom: 10px;
       border-radius: 5px
   }
-  input[type="radio"]{
-      margin-left: 20px;
-  }
-  input[type="checkbox"]{
-      margin-left: 20px;
-  }
+    input[type="radio"]{
+        margin-left: 0px;
+        margin-right: 15px;
+        max-height: 15px;
+        max-width: 15px;
+        height: auto;
+        width: auto;
+    }
+    input[type="checkbox"]{
+        margin-left: 0px;
+        margin-right: 15px;
+        max-height: 15px;
+        max-width: 15px;
+        height: auto;
+        width: auto;
+    }
+    .size {
+      font-size: 20px;
+    }
+    p {
+  font-size: 25px;
+    }
   textarea{
     width: 100%;
     height:25%;
@@ -56,9 +72,7 @@
   .submit{
     width: 100%;
     cursor: pointer;
-    /**/
     display: block;
-    padding: 0.5rem;
     color: black;
   }
   footer {
